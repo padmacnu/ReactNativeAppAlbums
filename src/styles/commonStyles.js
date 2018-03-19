@@ -1,14 +1,16 @@
 import { StyleSheet } from 'react-native';
+
 // Functional CSS
 export const SPACING_XXS = 4;
 export const SPACING_XS = 6;
 export const SPACING_S = 12;
-export const SPACING_m = 24;
+export const SPACING_M = 24;
 // ... more spacing constants
 
-export const COLOR_DARK_BLUE = "#06171d";
-export const COLOR_GRAY_BLUE = "#b2c3d0";
-export const COLOR_TEAL = "#437f92";
+export const COLOR_DARK_GRAYISH_BLUE = "#425563";
+export const COLOR_DARK_CYAN = "#01a982";
+export const COLOR_BLACK = "#000000";
+export const COLOR_WHITE = "#ffffff";
 // ... more colour constants
 
 export default StyleSheet.create({
@@ -22,22 +24,23 @@ export default StyleSheet.create({
   mt0: { marginTop: SPACING_XXS },
   mt1: { marginTop: SPACING_XS },
   mt2: { marginTop: SPACING_S },
-  mt3: { marginTop: SPACING_m },
+  mt3: { marginTop: SPACING_M },
   // ...
   flex1: { flex: 1 },
   flex2: { flex: 2 },
   flex3: { flex: 3 },
   // ...
-  dark_blue: { color: COLOR_DARK_BLUE },
-  gray_blue: { color: COLOR_GRAY_BLUE },
-  teal: { color: COLOR_TEAL },
+  dark_grayish_blue: { color: COLOR_DARK_GRAYISH_BLUE },
+  dark_cyan: { color: COLOR_DARK_CYAN },
+  black: { color: COLOR_BLACK },
+  white: { color: COLOR_WHITE },
   // ...
-  bg_dark_blue: { backgroundColor: COLOR_DARK_BLUE },
-  bg_gray_blue: { backgroundColor: COLOR_GRAY_BLUE },
-  bg_teal: { backgroundColor: COLOR_TEAL },
+  bg_dark_grayish_blue: { backgroundColor: COLOR_DARK_GRAYISH_BLUE },
+  bg_dark_cyan: { backgroundColor: COLOR_DARK_CYAN },
+  bg_white: { backgroundColor: COLOR_BLACK },
   // ...
   o_100: { opacity: 1 },
-  o_90: { opacity: 0.9 },
-  o_80: { opacity: 0.8 },
+  o_50: { opacity: 0.5 },
+
   // ...
 });
